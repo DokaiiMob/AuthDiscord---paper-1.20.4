@@ -1,0 +1,28 @@
+# AuthDiscord Configuration
+
+# Discord Bot Token (получите на https://discord.com/developers/applications)
+bot_token: "DISCORD_BOT_TOKEN"
+
+# ID Discord сервера для проверки участия
+guild_id: "DISCORD_ID_CHANNEL"
+
+# Длина кода авторизации
+code_length: 8
+
+# Символы для генерации кода
+code_charset: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+# Время жизни кода в минутах
+code_timeout: 5
+
+# Сообщения
+messages:
+  auth_required: "§eДля авторизации напишите этот код боту в Discord: §b%code%"
+  auth_success: "§aВы успешно авторизованы как §b%tag%"
+  auth_frozen: "§cВы должны авторизоваться через Discord!"
+  not_in_guild: "❌ Вы не состоите в нужном Discord-сервере."
+  auth_complete: "✅ Привязка выполнена! Теперь вы можете играть."
+  invalid_code: "❌ Неверный код авторизации."
+  unlink_success: "§aПривязка игрока %player% была удалена."
+  player_not_found: "§cИгрок не найден."
+  config_reloaded: "§aКонфигурация перезагружена."

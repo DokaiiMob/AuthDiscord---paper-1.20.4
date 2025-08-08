@@ -1,0 +1,22 @@
+name: AuthDiscord
+version: '1.0.0'
+main: ru.example.authdiscord.AuthDiscordPlugin
+api-version: '1.20'
+description: Minecraft Discord Authorization Plugin
+author: Sanurial
+website: https://example.com
+
+commands:
+  unlink:
+    description: Удалить привязку игрока
+    usage: /unlink <player>
+    permission: authdiscord.admin
+  reloadauth:
+    description: Перезагрузить конфигурацию
+    usage: /reloadauth
+    permission: authdiscord.admin
+
+permissions:
+  authdiscord.admin:
+    description: Административные права для AuthDiscord
+    default: op
