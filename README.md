@@ -199,7 +199,7 @@ https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&scope=bot&permissions
 **Сделано с ❤️ для Minecraft сообщества**
 
 [![Star on GitHub](https://img.shields.io/github/stars/DokaiiMob/AuthDiscord---paper-1.20.4.svg?style=social)](https://github.com/yourrepo/authdiscord/stargazers)
-[![Follow on GitHub](https://img.shields.io/github/followers/DokaiiMob.svg?style=social&label=Follow)](https://github.com/yourusername)
+[![Follow on GitHub](https://img.shields.io/github/followers/DokaiiMob.svg?style=social&label=Follow)](https://github.com/DokaiiMob)
 
 **Спасибо за использование AuthDiscord!** 🙏
 
